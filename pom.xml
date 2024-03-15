@@ -56,6 +56,24 @@
             <scope>test</scope>
         </dependency>
         <!-- 后面使用到哪些 jar ,在引入即可 todo -->
+        <!--md5 依赖-->
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.15</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.2</version>
+            <!-- 主程序和测试中都可以使用-->
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
